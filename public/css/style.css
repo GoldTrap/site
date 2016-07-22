@@ -35,6 +35,7 @@ p{
 }
 
 .lead{
+	color: #ECEFF1;
 	font-weight: 300;
 }
 
@@ -77,17 +78,17 @@ header h1,
 .payoff h1,
 .details .carousel,
 .social a:hover{
-	color: #0bf397;
+	color: #ECEFF1;
 }
 
 .features p{
-	color: #06b872;
+	color: #ECEFF1;
 }
 
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
-	background: #0bf397;	
+	background: #64B5F6;	
 }
 	
 
@@ -115,14 +116,14 @@ nav.navbar.fixed-to-top{
 
 .navbar-default{
 	border: none;
-	border-bottom: 1px solid #eee;
-	background: #fff;
+	border-bottom: 1px solid #1E88E5;
+	background: #2196F3;
 	opacity: 0.95;
 	display: none;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #aaa;
+	color: #ECEFF1;
 	font-size: 1.2em;
 }
 
@@ -137,7 +138,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-brand{
-	color: #333333;
+	color: #37474F;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
@@ -152,11 +153,10 @@ nav.navbar.fixed-to-top{
 header{
 	padding: 150px 0px 0px 0px;
 	height: 960px;
-	background: url('../img/nepal.jpg');
-	background-color: white!important;
+	background-color: #64B5F6!important;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: white;
+	color: #ECEFF1;
 }
 
 header h1{
@@ -217,6 +217,7 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 .purchase{
+	background-color: #F48FB1;
 	overflow: hidden;
 	padding: 100px 0px 100px 0px;
 	min-height: 200px;
@@ -226,7 +227,7 @@ header .carousel-indicators li {
 	width: 152px;
 	height: 52px;
 	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
-	color: white;
+	color: #ECEFF1;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -237,10 +238,10 @@ header .carousel-indicators li {
 	overflow: hidden;
 	padding: 230px 0px 150px 0px;
 	min-height: 600px;
-	background: url('../img/dunes.jpg');
+	background-color: #64B5F6 !important;
 	background-position: center top;
 	background-repeat: repeat-x;
-	color: white;
+	color: #ECEFF1;
 }
 
 .payoff h1{
@@ -255,6 +256,7 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 .detail{
+	background-color: #F48FB1;
 	overflow: hidden;
 	padding: 50px 0px 0px 0px;
 	min-height: 500px;
@@ -278,7 +280,7 @@ header .carousel-indicators li {
 }
 
 .detail p{
-	color: #aaa;
+	color: #ECEFF1;
 }
 
 .detail .carousel-control{
@@ -314,8 +316,8 @@ header .carousel-indicators li {
 	padding: 5px;
 	padding-bottom: 8px;
 	width: 100%;
-	border-top: 1px solid #eee;
-	background: #ffffff;
+	border-top: 1px solid #F8BBD0;
+	background: #F8BBD0;
 }
 
 .detail .carousel-indicators .active {
@@ -323,6 +325,7 @@ header .carousel-indicators li {
 	height: 5px;
 	border: none;
 	border-radius: 0px;
+	background-color: #EC407A;
 }
 
 .detail .carousel-indicators li {
@@ -353,27 +356,14 @@ header .carousel-indicators li {
 }
 
 .features h2{
-	color: #ffffff;
+	color: #ECEFF1;
 	text-transform: uppercase;
 	font-weight: 300;
 }
 
-.features .circle{
-	box-sizing: border-box;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 33px;
-	width: 150px;
-	height: 150px;
-	border: 2px solid #ffffff;
-	border-radius: 100%;
-	text-align: center;
-	
-}
-
 .features span.glyphicon, .features i{
 	margin-top: 3px;
-	color: #ffffff;
+	color: #ECEFF1;
 	font-size: 5em;
 }
 
@@ -385,14 +375,14 @@ header .carousel-indicators li {
 	overflow: hidden;
 	padding: 80px 0px 150px 0px;
 	min-height: 350px;
-	background: url('../img/sea.jpg');
+	background-color: #F48FB1;
 	background-position: center top;
 	background-repeat: repeat-x;
-	color: white;
+	color: #ECEFF1;
 }
 
 .social h2{
-	color: white;
+	color: #ECEFF1;
 }
 
 .social a {
@@ -408,20 +398,56 @@ header .carousel-indicators li {
 	
 }
 
+.cheats {
+	width: 150px;
+	height: 150px;
+	display: block;
+  box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	text-align: center;
+}
+
+.skip {
+	background: url(../img/cheats/skip.svg);
+	background-color: #FF1744;
+	background-size: 120px 120px;
+	background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.flip {
+	background: url(../img/cheats/flip.svg);
+	background-color: #FF3D00;
+	background-size: 120px 120px;
+	background-position: center center;
+  background-repeat: no-repeat;
+}
+.plus_one {
+	background: url(../img/cheats/plus_one.svg);
+	background-color: #651FFF;
+	background-size: 120px 120px;
+	background-position: center center;
+  background-repeat: no-repeat;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	GET-IT
 /*-----------------------------------------------------------------------------------*/
 
 .get-it{
+	background-color: #64B5F6;
 	padding: 100px 0px 160px 0px;
 	text-align: center;
 }
 
-.get-it button.app-store{
+.app-store{
 	width: 152px;
-	height: 52px;
-	background: url(../img/badge-appstore.png) #373737 no-repeat 0px 5px;
-	color: white;
+	height: 59px;
+	color: #ECEFF1;
 }
 
 .get-it hr{
@@ -446,7 +472,7 @@ header .carousel-indicators li {
 }
 
 .get-it ul li a{
-	color: #aaa;
+	color: #ECEFF1;
 	font-size: 1.2em;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -456,7 +482,7 @@ header .carousel-indicators li {
 }
 
 .get-it ul li a:hover{
-	color: #3A3A3A;
+	color: #E57373;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -550,8 +576,8 @@ header, .social{
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     /* Retina-specific stuff here */
     .purchasebutton.app-store, .get-it button.app-store{
-        background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
+        background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
         background-size: 98%;
-    	color: white;
+    		color: #ECEFF1;
     }
 }
